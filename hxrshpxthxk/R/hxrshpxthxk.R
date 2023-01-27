@@ -4,8 +4,8 @@
 
 basic_function=function(x){
   data.frame(
-  min=min(x),
-  max=max(x),
-  range=max(x)-min(x)
+  mean=mean(x),
+  median=median(x),
+  sum=sum(x)
   )
 }
